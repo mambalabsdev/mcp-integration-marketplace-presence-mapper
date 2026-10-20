@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-integration-marketplace-presence-mapper": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-integration-marketplace-presence-mapper"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

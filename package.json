@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-integration-marketplace-presence-mapper",
+  "version": "1.0.0",
+  "description": "MCP server for Integration and Marketplace Presence Mapper. Find which app marketplaces list a company: one row per company with its listings on HubSpot, Salesforce AppExchange, Slack, Zapier, Shopify, Atlassian, Chrome Web Store, Microsoft, Google Workspace, and WordPress, with listing URL, installs, rating, and reviews. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-integration-marketplace-presence-mapper": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "app-marketplace",
+    "integrations",
+    "hubspot",
+    "appexchange",
+    "shopify-apps",
+    "chrome-web-store",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/integration-marketplace-presence-mapper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-integration-marketplace-presence-mapper"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-integration-marketplace-presence-mapper"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "mcp-integration-marketplace-presence-mapper",
+  "displayName": "Integration and Marketplace Presence Mapper",
+  "version": "1.0.0",
+  "description": "MCP server for Integration and Marketplace Presence Mapper. Find which app marketplaces list a company: one row per company with its listings on HubSpot, Salesforce AppExchange, Slack, Zapier, Shopify, Atlassian, Chrome Web Store, Microsoft, Google Workspace, and WordPress, with listing URL, installs, rating, and reviews. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-integration-marketplace-presence-mapper",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "google-ads",
+    "ads-transparency",
+    "competitor-ads",
+    "apify",
+    "clay"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "app-marketplace",
+    "integrations",
+    "hubspot",
+    "appexchange",
+    "shopify-apps",
+    "chrome-web-store",
+    "apify",
+    "clay"
+  ],
+  "mcpServers": ".mcp.json"
+}
